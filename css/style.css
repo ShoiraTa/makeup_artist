@@ -27,45 +27,74 @@ li {
 .button{
     color: var(--dark_gray);
     border: 2px solid  var(--btn-border);
-    margin-left: 3rem;
     background: none;
     padding: 20px 60px;
     position:relative;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    font-weight: 500;
     
 }
 .button::before{
     content: "";
     border: 2px solid  var(--btn-border);
-    width:103%;
+    width:102.5%;
 	height:107%;
     display:block;
 	position:absolute;
     padding:20px;
     top:-10%;
-    left: 1.5%
+    left: 1%
 }
 
 /* navbar */
+
 .logo{
     width: 220px;
 }
 header{
-    height: 1000px;
+    width: auto;
     background-color:  var(--pink);
 }
 .navbar{
 background-color:   var(--pink);
 letter-spacing: 1.5px;
 }
-
-.leftSection{
-    width: 55%
+ .dropdown{
+    margin-right: 60px;
 }
+
 .nav-link {
     color: var(--black);
     font-size: 0.7rem;
     font-weight: 400;
-    margin-left: 2rem;
+    margin-left: 60px;
+}
+.navbar-toggler-icon{
+   background-color : #000000;
+}
+.button-nav{
+    margin-left: 3rem;
+}
+.banner{
+    height: 600px;
+}
+.banner-left{
+    padding-left: 10rem;
+}
+.banner-left::after{
+    content: url('../assets/image\ 630.png');
+    width: 100px;
+    height: 50%;
+    top: 0;
+    right: 0;
 }
 
+.heading{
+    font-size: 80px;
+    font-weight: 500;
+    bottom: 0;
+
+}
+.banner-img {
+    width: 50vw;
+}
