@@ -1,9 +1,10 @@
 :root {
     --pink:#FDF1EE;
     --black: #000000; 
-    --dark_gray: #282828; 
+    --dark_gray: #5a5858; 
     --white: #ffffff; 
     --darker_pink: #FDF5F3;
+    --btn-border: #E9DCDA;
 }
 
 html {
@@ -22,3 +23,49 @@ body {
 li {
     list-style: none;
 }
+
+.button{
+    color: var(--dark_gray);
+    border: 2px solid  var(--btn-border);
+    margin-left: 3rem;
+    background: none;
+    padding: 20px 60px;
+    position:relative;
+    font-size: 0.8rem;
+    
+}
+.button::before{
+    content: "";
+    border: 2px solid  var(--btn-border);
+    width:103%;
+	height:107%;
+    display:block;
+	position:absolute;
+    padding:20px;
+    top:-10%;
+    left: 1.5%
+}
+
+/* navbar */
+.logo{
+    width: 220px;
+}
+header{
+    height: 1000px;
+    background-color:  var(--pink);
+}
+.navbar{
+background-color:   var(--pink);
+letter-spacing: 1.5px;
+}
+
+.leftSection{
+    width: 55%
+}
+.nav-link {
+    color: var(--black);
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
