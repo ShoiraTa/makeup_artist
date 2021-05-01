@@ -15,7 +15,8 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;;
+    /* font-family: 'Inter', sans-serif;; */
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     text-decoration: none;
 }
@@ -34,12 +35,13 @@ li {
     position:relative;
     font-size: 0.7rem;
     font-weight: 500;
+    font-family: 'Lato', sans-serif;
     
 }
 .button::before{
     content: "";
     border: 2px solid  var(--btn-border);
-    width:102.5%;
+    width:102.6%;
 	height:107%;
     display:block;
 	position:absolute;
@@ -54,10 +56,16 @@ li {
 #masterclass-button::before{
     width:101.5%;
 }
+.bold{
+    font-weight: 500;
+}
 /* navbar */
 
 .logo{
     width: 220px;
+}
+.logo-small{
+    width: 120px;
 }
 header{
     width: auto;
@@ -208,4 +216,86 @@ letter-spacing: 1.5px;
     position: absolute;
     bottom: 16px;
     left: 50px;  
+}
+/* schedules */
+
+.link-secondary{
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+.watch-video-btn{
+border: 1px solid rgba(128, 128, 128, 0.486);
+font-size: 0.7rem;
+padding: 12px 43px;
+font-family: 'Lato', sans-serif;
+}
+.span-chev{
+    margin-left: 9px;
+}
+.border-bottom{
+    border-bottom : 1px solid rgba(128, 128, 128, 0.486);
+}
+
+/* Reviews */
+.reviews-left{
+    margin-left: 2rem;
+}
+
+.review-img{
+    width: 400px;
+}
+.z-index>*{
+    z-index: 100;
+}
+
+.reviews::before{
+    content: "";
+    top: 50px;
+    right: 0;
+    position: absolute;
+z-index: 1;
+    width: 100%;
+    height: 150%;
+    background-color: #FDF1EE;
+   }
+  .form-left::before{
+      content: "";
+      position: absolute;
+      z-index: 1;
+      width:150%;
+      height: 85%;
+      background-image: url(../assets/lipstick.png);
+      background-position: center;
+      background-size:     cover;
+  }
+  .right-form{
+      background-color: var(--white);
+      padding: 8rem 7rem;
+      margin-top: 6rem;
+  }
+  .form-input{
+      width: 457px;
+      height: 45px;
+      font-size: 13px;
+      padding-left: 10px;
+  }
+  .font-size-1{
+    font-size: 12px;
+  }
+  .submit-btn{
+      background-color: var(--black);
+      color: var(--white);
+      font-size: 12px;
+      border: none;
+  }
+/* footer */
+
+footer{
+    background-color: var(--pink);
+ 
+}
+.border-bottom-footer{
+    border-bottom: 2px solid var(--dark_gray);
 }
