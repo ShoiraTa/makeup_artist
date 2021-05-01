@@ -23,7 +23,9 @@ body {
 li {
     list-style: none;
 }
-
+.relative{
+    position: relative;
+}
 .button{
     color: var(--dark_gray);
     border: 2px solid  var(--btn-border);
@@ -45,7 +47,10 @@ li {
     top:-10%;
     left: 1%
 }
-
+.button:hover{
+    transform: scale(1.05);
+    transition: 0.1s ease;
+}
 #masterclass-button::before{
     width:101.5%;
 }
@@ -72,6 +77,12 @@ letter-spacing: 1.5px;
     font-weight: 400;
     margin-left: 50px;
 }
+.nav-link:hover{    
+    transition: 0.3s ease;
+    transform: scale(1.05);
+    color: var(--black);
+}
+
 .navbar-toggler-icon{
    background-color : #000000;
 }
@@ -112,7 +123,6 @@ letter-spacing: 1.5px;
     width: 60%;
 }
 .cards{
-    position: relative;
     background-image: url(../assets/background-main.png);
     background-repeat: no-repeat;
 }
@@ -146,11 +156,56 @@ letter-spacing: 1.5px;
 .portfolio-img{
     background-image: url(../assets/tutorials.png);
     background-repeat: no-repeat;
-    height: 95vh;
+    height: 73vh;
+    width: 60vw;
     background-position: center center;
     color: var(--white);
     margin: auto;
+
 }
-.tutorials-link{
-    
+.portfolio-link{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white);
+    position: absolute;
+    bottom: 16px;
+    left: 50px;
+}
+.tutorials-link:hover{
+    color: var(--white);
+}
+.makeup{
+    background-color: var(--pink);
+}
+.makeup-left {
+    background-image: url(../assets/makeup-1.png);
+    background-repeat: no-repeat;
+    height: 602px;
+    width: 500.9px;
+    background-position: center;
+    background-size:     cover;
+    margin-right: -50px;
+}
+.makeup-p{
+    height: 150px;
+    width: 40vw;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    color: black;
+    font-weight: 400;
+}
+.makeup-img{
+    width: 648px;
+   
+}
+.portfolio-link-evening{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--dark_gray);
+    position: absolute;
+    bottom: 16px;
+    left: 50px;  
 }
