@@ -46,6 +46,9 @@ li {
     left: 1%
 }
 
+#masterclass-button::before{
+    width:101.5%;
+}
 /* navbar */
 
 .logo{
@@ -59,15 +62,15 @@ header{
 background-color:   var(--pink);
 letter-spacing: 1.5px;
 }
- .dropdown{
-    margin-right: 60px;
+.instagram{
+    text-decoration: none;
 }
 
 .nav-link {
     color: var(--black);
     font-size: 0.7rem;
     font-weight: 400;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 .navbar-toggler-icon{
    background-color : #000000;
@@ -75,26 +78,79 @@ letter-spacing: 1.5px;
 .button-nav{
     margin-left: 3rem;
 }
+
 .banner{
-    height: 600px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .banner-left{
-    padding-left: 10rem;
+    margin-left: 10rem;
+    width: 50%;
+    z-index: 1;
 }
-.banner-left::after{
-    content: url('../assets/image\ 630.png');
-    width: 100px;
-    height: 50%;
-    top: 0;
-    right: 0;
-}
+.banner-right{
+    margin: 0;
+    width: 55%;
+    height: 100vh;
+    background-image:  url(../assets/image\ 630.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
 
 .heading{
     font-size: 80px;
     font-weight: 500;
     bottom: 0;
-
 }
-.banner-img {
-    width: 50vw;
+.heading-p{
+    width: 80%;
+}
+/* main */
+.upper{
+    width: 60%;
+}
+.cards{
+    position: relative;
+    background-image: url(../assets/background-main.png);
+    background-repeat: no-repeat;
+}
+
+.lower{
+    border: none;
+    width: 90%;
+    margin-top: 10rem;
+}
+.card-image{
+    width: 50px;
+    
+}
+/* masterclas section */
+.masterclass{
+    background-image: url(../assets/be_your_own_artist.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 95vh;
+    width: 85vw;
+    color: var(--white);
+}
+
+.masterclass-heading{
+    font-size: 4rem;
+}
+.masterclass-button{
+    margin: -500px;
+}
+
+.portfolio-img{
+    background-image: url(../assets/tutorials.png);
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-position: center center;
+    color: var(--white);
+    margin: auto;
+}
+.tutorials-link{
+    
 }

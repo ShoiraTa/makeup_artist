@@ -1,4 +1,37 @@
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+    .banner{
+        flex-direction: column;
+
+    }
+    .button{
+        padding: 10px 30px;
+    }
+
+    .banner-left{
+        width: 100%;
+        margin: 0;
+   
+    }
+    .banner-right{
+        width: 100%;
+        margin-top: -100px;
+        display: flex;
+        background-image:  url(../assets/mobile_banner.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .container-nav{
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+      
+    }
+    .button-nav{
+        margin-left: 0rem;
+    }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 425px) {
 }
