@@ -6,27 +6,22 @@
     --darker_pink: #FDF5F3;
     --btn-border: #E9DCDA;
 }
-
-html {
-    box-sizing: border-box;
-    font-size: 100%;
-  }
-  
-body {
-    margin: 0;
-    padding: 0;
-    /* font-family: 'Inter', sans-serif;; */
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    text-decoration: none;
+    font-weight: 400;
+   
 }
-  
+
 li {
     list-style: none;
 }
-.relative{
-    position: relative;
-}
+
 .button{
     color: var(--dark_gray);
     border: 2px solid  var(--btn-border);
@@ -38,6 +33,7 @@ li {
     font-family: 'Lato', sans-serif;
     
 }
+
 .button::before{
     content: "";
     border: 2px solid  var(--btn-border);
@@ -49,16 +45,24 @@ li {
     top:-10%;
     left: 1%
 }
+
 .button:hover{
     transform: scale(1.05);
     transition: 0.1s ease;
 }
+
 #masterclass-button::before{
     width:101.5%;
 }
+
 .bold{
     font-weight: 500;
 }
+
+.relative{
+    position: relative;
+}
+
 /* navbar */
 
 .logo{
@@ -83,7 +87,7 @@ letter-spacing: 1.5px;
     color: var(--black);
     font-size: 0.7rem;
     font-weight: 400;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .nav-link:hover{    
     transition: 0.3s ease;
@@ -106,13 +110,13 @@ letter-spacing: 1.5px;
 }
 .banner-left{
     margin-left: 10rem;
-    width: 50%;
+
     z-index: 1;
 }
 .banner-right{
-    margin: 0;
-    width: 55%;
-    height: 100vh;
+    margin-left: -60px;
+
+    height: 110vh;
     background-image:  url(../assets/image\ 630.png) ;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,8 +124,8 @@ letter-spacing: 1.5px;
 
 .heading{
     font-size: 80px;
-    font-weight: 500;
-    bottom: 0;
+    font-weight: 600;
+  
 }
 .heading-p{
     width: 80%;
@@ -142,8 +146,8 @@ letter-spacing: 1.5px;
 }
 .card-image{
     width: 50px;
-    
-}
+    }
+    button {outline:0;}
 /* masterclas section */
 .masterclass{
     background-image: url(../assets/be_your_own_artist.png);
@@ -160,6 +164,9 @@ letter-spacing: 1.5px;
 .masterclass-button{
     margin: -500px;
 }
+.mobile > img{
+    width:  100%;
+}
 
 .portfolio-img{
     background-image: url(../assets/tutorials.png);
@@ -169,7 +176,6 @@ letter-spacing: 1.5px;
     background-position: center center;
     color: var(--white);
     margin: auto;
-
 }
 .portfolio-link{
     text-decoration: none;
@@ -276,7 +282,7 @@ z-index: 1;
       margin-top: 6rem;
   }
   .form-input{
-      width: 457px;
+      width: 357px;
       height: 45px;
       font-size: 13px;
       padding-left: 10px;
@@ -299,3 +305,19 @@ footer{
 .border-bottom-footer{
     border-bottom: 2px solid var(--dark_gray);
 }
+
+.grid{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 15px;
+    align-content:center;
+
+}
+
+.grid-col{
+max-width: 100%;
+height: 100%;
+overflow: hidden;
+}
+

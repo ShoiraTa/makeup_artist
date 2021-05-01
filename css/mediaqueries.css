@@ -1,37 +1,84 @@
-@media screen and (max-width: 768px) {
-    .banner{
-        flex-direction: column;
-
+@media screen and (max-width: 780px) {
+    .navbar-nav{
+    width: 40vw;
     }
+
     .button{
         padding: 10px 30px;
     }
-
-    .banner-left{
-        width: 100%;
-        margin: 0;
-   
+    .header-text{
+        justify-content: center;
+        align-items: center;
+        
     }
-    .banner-right{
-        width: 100%;
-        margin-top: -100px;
-        display: flex;
-        background-image:  url(../assets/mobile_banner.jpg) ;
+    .nav-link {
+    
+        margin-left: 5%;
+    }
+    .banner{
+        background-image: url(../assets/banner_mobile.png);
         background-position: center;
         background-repeat: no-repeat;
+        background-size:     cover;
+        height: 60vh;
+        justify-content: center;       
     }
+    .banner-left{
+        margin: 0;
+    }
+  
+
     .heading{
-        font-size: 30px;
+        font-size: 3rem;
     }
     .container-nav{
         display: flex;
         justify-content: space-around;
         margin: 0;
-      
     }
     .button-nav{
         margin-left: 0rem;
     }
+    .lower{
+        flex-direction: column;
+        margin: 2rem;
+   
+    }
+    .masterclass-heading{
+        font-size: 3rem;
+    }
+    .schedules-left{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+    }
+    .form-input{
+        width: 307px;
+    }
+    .right-form{
+        padding: 2rem 2rem;
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     
+    }
+    .right-form::before{
+        content: "";
+            top:0;
+            left: 0;
+            position: absolute;
+        background-image: url(../assets/bgform.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .reviews::before{
+        top: 10px;
+       }
 }
 @media screen and (max-width: 425px) {
+    .heading{
+        font-size: 1.5rem;
+    }
 }
