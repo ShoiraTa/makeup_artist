@@ -5,9 +5,9 @@
     }
     .button::before
     {
-    width:103.6%;
+   
 	height:106.6%;
-    left:1%
+    left:2%
     }
     .button-long::before
     {
@@ -119,10 +119,7 @@
             margin-top: 6rem;
             display: flex;
             flex-direction: column;
-            align-items: center;
-
-            
-         
+            align-items: center;                  
         }
         .right-form::before{
             content: "";
@@ -135,9 +132,5 @@
         }
         .reviews::before{
             top: 10px;
-           }
-}
-/* xs */
-@media screen and (max-width: 425px){
-    
+        }
 }

@@ -15,7 +15,6 @@ html,body
     overflow-x: hidden; 
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-   
 }
 
 li {
@@ -31,7 +30,6 @@ li {
     font-size: 0.7rem;
     font-weight: 500;
     font-family: 'Lato', sans-serif;
-    
 }
 
 .button::before{
@@ -51,12 +49,6 @@ li {
     transition: 0.1s ease;
 }
 
-
-
-.bold{
-    font-weight: 500;
-}
-
 .relative{
     position: relative;
 }
@@ -66,18 +58,22 @@ li {
 .logo{
     width: 220px;
 }
+
 .small-logo{
     width: 100px;
     margin-top: 5rem;
 }
+
 header{
     width: auto;
     background-color:  var(--pink);
 }
+
 .navbar{
-background-color:   var(--pink);
-letter-spacing: 1.5px;
+    background-color:   var(--pink);
+    letter-spacing: 1.5px;
 }
+
 .instagram{
     text-decoration: none;
     margin-right: 1rem;
@@ -89,6 +85,7 @@ letter-spacing: 1.5px;
     font-weight: 400;
     margin-left: 40px;
 }
+
 .nav-link:hover{    
     transition: 0.3s ease;
     transform: scale(1.05);
@@ -98,8 +95,9 @@ letter-spacing: 1.5px;
 .navbar-toggler-icon{
    background-color : #000000;
 }
+
 .button-nav{
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 .banner{
@@ -107,6 +105,7 @@ letter-spacing: 1.5px;
     display: flex;
     align-items: center;
 }
+
 .banner-left{
     height: 100%;
     margin-left: 9rem;
@@ -120,23 +119,23 @@ letter-spacing: 1.5px;
     margin-left: -60px;
     left: -50px;
     bottom: -50px;
-
 }  
-
-
 
 .heading{
     font-size: 70px;
     font-weight: 600;
-  
 }
+
 .heading-p{
     width: 70%;
 }
+
 /* main */
+
 .upper{
     width: 60%;
 }
+
 .cards{
     background-image: url(../assets/background-main.png);
     background-repeat: no-repeat;
@@ -147,11 +146,13 @@ letter-spacing: 1.5px;
     width: 90%;
     margin-top: 10rem;
 }
+
 .card-image{
     width: 50px;
     }
-    button {outline:0;}
+
 /* masterclas section */
+
 .masterclass{
     background-image: url(../assets/be_your_own_artist.png);
     background-repeat: no-repeat;
@@ -161,14 +162,14 @@ letter-spacing: 1.5px;
     color: var(--white);
 }
 
-
-
 .masterclass-heading{
     font-size: 4rem;
 }
+
 .masterclass-button{
     margin: -500px;
 }
+
 .mobile > img{
     width:  100%;
 }
@@ -182,6 +183,7 @@ letter-spacing: 1.5px;
     color: var(--white);
     margin: auto;
 }
+
 .portfolio-link{
     text-decoration: none;
     font-size: 2rem;
@@ -193,12 +195,15 @@ letter-spacing: 1.5px;
     padding: 5px 10px;
     background-color:rgba(165, 136, 99, 0.699); 
 }
+
 .tutorials-link:hover{
     color: var(--white);
 }
+
 .makeup{
     background-color: var(--pink);
 }
+
 .makeup-left {
     background-image: url(../assets/makeup-1.png);
     background-repeat: no-repeat;
@@ -208,6 +213,7 @@ letter-spacing: 1.5px;
     background-size:     cover;
     margin-right: -50px;
 }
+
 .makeup-p{
     height: 150px;
     width: 40vw;
@@ -217,11 +223,12 @@ letter-spacing: 1.5px;
     color: black;
     font-weight: 400;
 }
+
 .makeup-img{
     width: 648px;
-
     background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
 }
+
 .portfolio-link-evening{
     text-decoration: none;
     font-size: 2rem;
@@ -230,35 +237,43 @@ letter-spacing: 1.5px;
     position: absolute;
     bottom: 16px;
     left: 50px; 
-
 }
+
 /* schedules */
+
 .schedules{
     background-image: url(../assets/bg-pink.jpg);
     background-size: cover;
 }
+
 .link-secondary{
     font-weight: 500;
     text-decoration: none;
     font-size: 1.2rem;
     padding-bottom: 1.2rem;
 }
+
 .watch-video-btn{
-border: 1px solid rgba(128, 128, 128, 0.486);
-font-size: 0.7rem;
-padding: 12px 43px;
-font-family: 'Lato', sans-serif;
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    font-size: 0.7rem;
+    padding: 12px 43px;
+    font-family: 'Lato', sans-serif;
 }
+
 .span-chev{
     margin-left: 9px;
 }
+
 .border-bottom{
     border-bottom : 1px solid rgba(128, 128, 128, 0.486);
 }
+
 .schedules-left{
     margin-left:3rem;
 }
+
 /* Reviews */
+
 .reviews-left{
     margin-left: 2rem;
 }
@@ -266,6 +281,7 @@ font-family: 'Lato', sans-serif;
 .review-img{
     width: 400px;
 }
+
 .z-index>*{
     z-index: 100;
 }
@@ -279,7 +295,7 @@ font-family: 'Lato', sans-serif;
     width: 100%;
     height: 150%;
     background-color: #FDF1EE;
-   }
+}
   .form-left::before{
       content: "";
       position: absolute;
@@ -289,44 +305,43 @@ font-family: 'Lato', sans-serif;
       background-image: url(../assets/lipstick.png);
       background-position: center;
       background-size:     cover;
-  }
+}
+
   .right-form{
       background-color: var(--white);
       padding: 8rem 7rem;
       margin-top: 6rem;
-  }
+}
+
   .form-input{
       width: 357px;
       height: 45px;
       font-size: 13px;
       padding-left: 10px;
-  }
+}
+
   .font-size-1{
     font-size: 12px;
-  }
+}
   .submit-btn{
       background-color: var(--black);
       color: var(--white);
       font-size: 12px;
       border: none;
-  } 
-
+} 
   
-  .carousel-cell{
+.carousel-cell{
     width: 350px;
     height: 350px;
-margin: 5px;
+    margin: 5px;
     counter-increment: carousel-cell;
+}
 
- 
-  }
   .carousel-cell:before{
-      display: block;
-      text-align: center;
-      content: counter(carousel-cell);
-  
-      }
-  
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+}
   
 /* footer */
 
@@ -334,28 +349,24 @@ footer{
     background-color: var(--pink);
  
 }
+
 .border-bottom-footer{
     border-bottom: 2px solid var(--dark_gray);
 }
 
 .grid{
-   
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 15px;
     align-content:center;
-
 }
 
 .grid-col{
-max-width: 100%;
-height: 100%;
-overflow: hidden;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
-.a-link{
-    text-decoration: none;
-   
-}
+
 .a-link:hover{
     color: var(--black);
 }
