@@ -1,0 +1,151 @@
+@media screen and (max-width: 1164px){
+    .heading{
+        font-size: 55px;
+            }
+}
+/* small laptops  md */
+@media screen and (max-width: 1082px) {
+    .button{
+        padding: 16px 48px;
+    }
+    .button::before{
+	height:106.6%;
+    left:2%
+    }
+    .button-long::before
+    {
+    width:102%;
+	height:105.6%;
+    left:1%
+    }
+    .nav-link{
+        margin-left: 0;
+    }
+   
+    .heading{
+        font-size: 4rem;
+    }
+    .heading-p{
+        font-size: 12px;
+    }
+    .header-text{
+        font-size: 40px;
+            }
+   
+    .makeup-p{
+   
+        width: 45vw;
+        font-size: 1.3rem;
+        margin-top: 0;
+
+    }
+    .makeup-left {
+        height: 450px;}
+        .portfolio-link{
+            font-size: 1.4rem;
+            left:30;
+        }
+       
+}
+@media screen and (max-width: 1000px) {
+    .heading{
+        font-size: 3.4rem;
+    }
+    .banner-left {
+        margin-left: 5rem;
+}
+.header-text{
+    padding: 20px;
+}
+}
+@media screen and (max-width: 1000px) {
+    .heading{
+        font-size: 2.8rem;
+    }
+    
+}
+/* tablets- sm  */
+@media screen and (max-width: 763px) {
+    .reviews-text{
+        font-size: 0.6rem;
+    }
+    #masterclass-button{
+        font-size: 0.6rem;
+    }
+    header{
+        background-image: url(../assets/bg-pink.jpg) ;
+        background-size: cover;
+     
+    }
+   
+    .portfolio-link{
+        font-size: 0.8rem;
+        font-weight: 500;
+        width: 100%;
+        left:20
+    }
+         .header-text{
+            font-size: 10px;
+         }
+        .nav-link {
+            margin-left: 5%;
+        }
+       .banner{
+        height: 40%;
+       }
+        .banner-left{
+            margin: 0;
+            height: 100vh;
+        }
+    
+        .heading{
+            font-size: 2.8rem;
+        }
+        .container-nav{
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+        }
+        .button-nav{
+            margin-left: 0rem;
+        }
+        .lower{
+            flex-direction: column;
+            margin: 2rem;
+       
+        }
+        .masterclass-heading{
+            font-size: 3rem;
+        }
+        .schedules-left{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+             margin-left: 0;
+             margin-bottom: 2rem;
+
+        }
+        .form-input{
+            width: 307px;
+        }
+        .right-form{
+            padding: 2rem 2rem;
+            margin-top: 6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;                  
+        }
+        .right-form::before{
+            content: "";
+                top:0;
+                left: 0;
+                position: absolute;
+           
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .reviews::before{
+            top: 10px;
+        }
+}

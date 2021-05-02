@@ -1,0 +1,368 @@
+:root {
+    --pink:#FDF1EE;
+    --black: #000000; 
+    --dark_gray: #5a5858; 
+    --white: #ffffff; 
+    --darker_pink: #FDF5F3;
+    --btn-border: #E9DCDA;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+}
+
+.button{
+    color: var(--dark_gray);
+    border: 2px solid  var(--btn-border);
+    background: none;
+    padding: 20px 60px;
+    position:relative;
+    font-size: 0.7rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+
+.button::before{
+    content: "";
+    border: 2px solid  var(--btn-border);
+    width:102.6%;
+	height:106.6%;
+    display:block;
+	position:absolute;
+    padding:20px;
+    top:-14%;
+    left: 2%
+}
+
+.button:hover{
+    transform: scale(1.05);
+    transition: 0.1s ease;
+}
+
+.relative{
+    position: relative;
+}
+
+/* navbar */
+
+.logo{
+    width: 220px;
+}
+
+.small-logo{
+    width: 100px;
+    margin-top: 5rem;
+}
+
+header{
+    width: auto;
+    background-color:  var(--pink);
+}
+
+.navbar{
+    background-color:   var(--pink);
+    letter-spacing: 1.5px;
+}
+
+.instagram{
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.nav-link {
+    color: var(--black);
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.nav-link:hover{    
+    transition: 0.3s ease;
+    transform: scale(1.05);
+    color: var(--black);
+}
+
+.navbar-toggler-icon{
+   background-color : #000000;
+}
+
+.banner{
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-left{
+    height: 100%;
+    margin-left: 9rem;
+    z-index: 1;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-right{
+    margin-left: -60px;
+    left: -50px;
+    bottom: -50px;
+}  
+
+.heading{
+    font-size: 77px;
+    font-weight: 600;
+}
+
+.heading-p{
+    width: 70%;
+}
+
+/* main */
+
+.upper{
+    width: 60%;
+}
+
+.cards{
+    background-image: url(../assets/background-main.png);
+    background-repeat: no-repeat;
+}
+
+.lower{
+    border: none;
+    width: 90%;
+    margin-top: 10rem;
+}
+
+.card-image{
+    width: 50px;
+    }
+
+/* masterclas section */
+
+.masterclass{
+    background-image: url(../assets/be_your_own_artist.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+    width: 85vw;
+    color: var(--white);
+}
+
+.masterclass-heading{
+    font-size: 4rem;
+}
+
+.masterclass-button{
+    margin: -500px;
+}
+
+.mobile > img{
+    width:  100%;
+}
+
+.portfolio-img{
+    background-image: url(../assets/tutorials.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 60vw;
+    background-position: center center;
+    color: var(--white);
+    margin: auto;
+}
+
+.portfolio-link{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white);
+    position: absolute;
+    bottom: 16px;
+    left: 50px;
+    padding: 5px 10px;
+    background-color:rgba(165, 136, 99, 0.599); 
+}
+
+.portfolio-link:hover{
+    color: var(--white);
+}
+
+.makeup{
+    background-color: var(--pink);
+}
+
+.makeup-left {
+    background-image: url(../assets/makeup-1.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 500.9px;
+    background-position: center;
+    background-size:     cover;
+    margin-right: -50px;
+}
+
+.makeup-p{
+    height: 150px;
+    width: 40vw;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    color: black;
+    font-weight: 400;
+}
+
+.makeup-img{
+    width: 648px;
+    background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+}
+
+.portfolio-link-evening{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--dark_gray);
+    position: absolute;
+    bottom: 16px;
+    left: 50px; 
+}
+
+/* schedules */
+
+.schedules{
+    background-image: url(../assets/bg-pink.jpg);
+    background-size: cover;
+}
+
+.link-secondary{
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.watch-video-btn{
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    font-size: 0.7rem;
+    padding: 12px 43px;
+    font-family: 'Lato', sans-serif;
+}
+
+.span-chev{
+    margin-left: 9px;
+}
+
+.border-bottom{
+    border-bottom : 1px solid rgba(128, 128, 128, 0.486);
+}
+
+.schedules-left{
+    margin-left:3rem;
+}
+
+/* Reviews */
+
+.reviews-left{
+    margin-left: 2rem;
+}
+
+.review-img{
+    width: 400px;
+}
+
+.z-index>*{
+    z-index: 100;
+}
+
+.reviews::before{
+    content: "";
+    top: 50px;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 150%;
+    background-color: #FDF1EE;
+}
+  .form-left::before{
+      content: "";
+      position: absolute;
+      top:-40px;
+      width:150%;
+      height: 85%;
+      background-image: url(../assets/lipstick.png);
+      background-position: center;
+      background-size:     cover;
+}
+
+  .right-form{
+      background-color: var(--white);
+      padding: 8rem 7rem;
+      margin-top: 6rem;
+}
+
+  .form-input{
+      width: 357px;
+      height: 45px;
+      font-size: 13px;
+      padding-left: 10px;
+}
+
+  .font-size-1{
+    font-size: 12px;
+}
+  .submit-btn{
+      background-color: var(--black);
+      color: var(--white);
+      font-size: 12px;
+      border: none;
+} 
+  
+.carousel-cell{
+    width: 350px;
+    height: 350px;
+    margin: 5px;
+    counter-increment: carousel-cell;
+}
+
+  .carousel-cell:before{
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+}
+  
+/* footer */
+
+footer{
+    background-color: var(--pink);
+ 
+}
+
+.border-bottom-footer{
+    border-bottom: 2px solid var(--dark_gray);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 15px;
+    align-content:center;
+}
+
+.grid-col{
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.a-link:hover{
+    color: var(--black);
+}
