@@ -1,84 +1,108 @@
-@media screen and (max-width: 780px) {
-    .navbar-nav{
-    width: 40vw;
-    }
-
+/* small laptops  md */
+@media screen and (max-width: 1082px) {
     .button{
-        padding: 10px 30px;
+        padding: 10px 25px;
+    }
+    .nav-link{
+        margin-left: 0;
+    }
+   
+    .heading{
+        font-size: 3.5rem;
+    }
+    .heading-p{
+        font-size: 12px;
     }
     .header-text{
-        justify-content: center;
-        align-items: center;
-        
+        font-size: 40px;
+            }
+    .banner-left {
+                margin-left: 3rem;
     }
-    .nav-link {
-    
-        margin-left: 5%;
-    }
-    .banner{
-        background-image: url(../assets/banner_mobile.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size:     cover;
-        height: 60vh;
-        justify-content: center;       
-    }
-    .banner-left{
-        margin: 0;
-    }
-  
-
-    .heading{
-        font-size: 3rem;
-    }
-    .container-nav{
-        display: flex;
-        justify-content: space-around;
-        margin: 0;
-    }
-    .button-nav{
-        margin-left: 0rem;
-    }
-    .lower{
-        flex-direction: column;
-        margin: 2rem;
+    .makeup-p{
    
+        width: 45vw;
+        font-size: 1.3rem;
+        margin-top: 0;
+
     }
-    .masterclass-heading{
-        font-size: 3rem;
-    }
-    .schedules-left{
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: center;
-    }
-    .form-input{
-        width: 307px;
-    }
-    .right-form{
-        padding: 2rem 2rem;
-        margin-top: 6rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-     
-    }
-    .right-form::before{
-        content: "";
-            top:0;
-            left: 0;
-            position: absolute;
-        background-image: url(../assets/bgform.png);
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .reviews::before{
-        top: 10px;
-       }
+    .makeup-left {
+        height: 450px;}
+        .portfolio-link{
+            font-size: 1.4rem;
+            left:30;
+        }
 }
-@media screen and (max-width: 425px) {
-    .heading{
-        font-size: 1.5rem;
-    }
+/* tablets- sm  */
+@media screen and (max-width: 820px) {
+    
+         .header-text{
+           
+            font-size: 10px;
+            margin-left: 3rem;
+                }
+    
+        .nav-link {
+            margin-left: 5%;
+        }
+       .banner{
+        height: 40%;
+       }
+        .banner-left{
+            margin: 0;
+        }
+      
+    
+        .heading{
+            font-size: 3rem;
+        }
+        .container-nav{
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+        }
+        .button-nav{
+            margin-left: 0rem;
+        }
+        .lower{
+            flex-direction: column;
+            margin: 2rem;
+       
+        }
+        .masterclass-heading{
+            font-size: 3rem;
+        }
+        .schedules-left{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+
+        }
+        .form-input{
+            width: 307px;
+        }
+        .right-form{
+            padding: 2rem 2rem;
+            margin-top: 6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         
+        }
+        .right-form::before{
+            content: "";
+                top:0;
+                left: 0;
+                position: absolute;
+            background-image: url(../assets/bgform.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .reviews::before{
+            top: 10px;
+           }
+}
+/* xs */
+@media screen and (max-width: 425px){
+    
 }

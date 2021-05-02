@@ -68,8 +68,9 @@ li {
 .logo{
     width: 220px;
 }
-.logo-small{
-    width: 120px;
+.small-logo{
+    width: 100px;
+    margin-top: 5rem;
 }
 header{
     width: auto;
@@ -81,6 +82,7 @@ letter-spacing: 1.5px;
 }
 .instagram{
     text-decoration: none;
+    margin-right: 20px;
 }
 
 .nav-link {
@@ -103,32 +105,35 @@ letter-spacing: 1.5px;
 }
 
 .banner{
-    height: 100vh;
+    height: 60%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .banner-left{
-    margin-left: 10rem;
-
+    height: 100%;
+    margin-left: 9rem;
     z-index: 1;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .banner-right{
     margin-left: -60px;
+    left: -50px;
+    bottom: -50px;
 
-    height: 110vh;
-    background-image:  url(../assets/image\ 630.png) ;
-    background-position: center;
-    background-repeat: no-repeat;
-} 
+}  
+
+
 
 .heading{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 600;
   
 }
 .heading-p{
-    width: 80%;
+    width: 70%;
 }
 /* main */
 .upper{
@@ -153,10 +158,12 @@ letter-spacing: 1.5px;
     background-image: url(../assets/be_your_own_artist.png);
     background-repeat: no-repeat;
     background-position: center center;
-    height: 95vh;
+    height: 700px;
     width: 85vw;
     color: var(--white);
 }
+
+
 
 .masterclass-heading{
     font-size: 4rem;
@@ -171,7 +178,7 @@ letter-spacing: 1.5px;
 .portfolio-img{
     background-image: url(../assets/tutorials.png);
     background-repeat: no-repeat;
-    height: 73vh;
+    height: 500px;
     width: 60vw;
     background-position: center center;
     color: var(--white);
@@ -195,7 +202,7 @@ letter-spacing: 1.5px;
 .makeup-left {
     background-image: url(../assets/makeup-1.png);
     background-repeat: no-repeat;
-    height: 602px;
+    height: 550px;
     width: 500.9px;
     background-position: center;
     background-size:     cover;
@@ -206,7 +213,7 @@ letter-spacing: 1.5px;
     width: 40vw;
     font-size: 1.5rem;
     margin-left: 5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: black;
     font-weight: 400;
 }
@@ -229,7 +236,7 @@ letter-spacing: 1.5px;
     font-weight: 500;
     text-decoration: none;
     font-size: 1.2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.2rem;
 }
 .watch-video-btn{
 border: 1px solid rgba(128, 128, 128, 0.486);
@@ -243,7 +250,9 @@ font-family: 'Lato', sans-serif;
 .border-bottom{
     border-bottom : 1px solid rgba(128, 128, 128, 0.486);
 }
-
+.schedules-left{
+    margin-left:3rem;
+}
 /* Reviews */
 .reviews-left{
     margin-left: 2rem;
@@ -261,7 +270,7 @@ font-family: 'Lato', sans-serif;
     top: 50px;
     right: 0;
     position: absolute;
-z-index: 1;
+    z-index: 1;
     width: 100%;
     height: 150%;
     background-color: #FDF1EE;
@@ -269,7 +278,7 @@ z-index: 1;
   .form-left::before{
       content: "";
       position: absolute;
-      z-index: 1;
+      top:-40px;
       width:150%;
       height: 85%;
       background-image: url(../assets/lipstick.png);
@@ -309,7 +318,7 @@ footer{
 .grid{
    
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 15px;
     align-content:center;
 
@@ -320,4 +329,8 @@ max-width: 100%;
 height: 100%;
 overflow: hidden;
 }
-
+.footer-link{
+    text-decoration: none;
+    color: var(--black);
+   
+}
