@@ -6,18 +6,13 @@
 /* small laptops  md */
 @media screen and (max-width: 1082px) {
     .button{
-        padding: 16px 48px;
+        padding: 12.5px 41px;
     }
     .button::before{
 	height:106.6%;
     left:2%
     }
-    .button-long::before
-    {
-    width:102%;
-	height:105.6%;
-    left:1%
-    }
+
     .nav-link{
         margin-left: 0;
     }
@@ -41,10 +36,10 @@
     }
     .makeup-left {
         height: 450px;}
-        .portfolio-link{
+    .portfolio-link{
             font-size: 1.4rem;
             left:30;
-        }
+    }
        
 }
 @media screen and (max-width: 1000px) {
@@ -77,13 +72,22 @@
         background-size: cover;
      
     }
-   
     .portfolio-link{
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         font-weight: 500;
         width: 100%;
-        left:20
+        left:0
     }
+
+    .img-grid {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .portfolio{
+        background-color: var(--pink);
+    }
+   
          .header-text{
             font-size: 10px;
          }
