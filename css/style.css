@@ -103,7 +103,7 @@ header{
 }
 
 .banner-left{
-    height: 100%;
+    height: 90%;
     margin-left: 9rem;
     z-index: 1;
    display: flex;
