@@ -2,7 +2,7 @@
 
 > Responsive web page.
 
-| Homepage                      | Search result page            |
+| Desktop  view                 | Mobile view            |
 | ----------------------------- | ----------------------------- |
 | ![](./assets/laptop_demo.png) | ![](./assets/mobile_demo.png) |
 
