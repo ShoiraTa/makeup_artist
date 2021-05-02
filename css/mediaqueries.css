@@ -1,11 +1,14 @@
+@media screen and (max-width: 1164px){
+    .heading{
+        font-size: 55px;
+            }
+}
 /* small laptops  md */
 @media screen and (max-width: 1082px) {
     .button{
         padding: 16px 48px;
     }
-    .button::before
-    {
-   
+    .button::before{
 	height:106.6%;
     left:2%
     }
@@ -20,7 +23,7 @@
     }
    
     .heading{
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
     .heading-p{
         font-size: 12px;
@@ -28,9 +31,7 @@
     .header-text{
         font-size: 40px;
             }
-    .banner-left {
-                margin-left: 3rem;
-    }
+   
     .makeup-p{
    
         width: 45vw;
@@ -45,6 +46,23 @@
             left:30;
         }
        
+}
+@media screen and (max-width: 1000px) {
+    .heading{
+        font-size: 3.4rem;
+    }
+    .banner-left {
+        margin-left: 5rem;
+}
+.header-text{
+    padding: 20px;
+}
+}
+@media screen and (max-width: 1000px) {
+    .heading{
+        font-size: 2.8rem;
+    }
+    
 }
 /* tablets- sm  */
 @media screen and (max-width: 763px) {
@@ -67,9 +85,7 @@
         left:20
     }
          .header-text{
-           margin: 2rem;
             font-size: 10px;
-            margin-left: 3rem;
          }
         .nav-link {
             margin-left: 5%;
@@ -81,10 +97,9 @@
             margin: 0;
             height: 100vh;
         }
-      
     
         .heading{
-            font-size: 3rem;
+            font-size: 2.8rem;
         }
         .container-nav{
             display: flex;

@@ -96,10 +96,6 @@ header{
    background-color : #000000;
 }
 
-.button-nav{
-    margin-left: 2rem;
-}
-
 .banner{
     height: 60%;
     display: flex;
@@ -122,7 +118,7 @@ header{
 }  
 
 .heading{
-    font-size: 70px;
+    font-size: 77px;
     font-weight: 600;
 }
 
@@ -193,10 +189,10 @@ header{
     bottom: 16px;
     left: 50px;
     padding: 5px 10px;
-    background-color:rgba(165, 136, 99, 0.699); 
+    background-color:rgba(165, 136, 99, 0.599); 
 }
 
-.tutorials-link:hover{
+.portfolio-link:hover{
     color: var(--white);
 }
 
