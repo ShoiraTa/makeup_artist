@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://shoirata.github.io/makeup_artist/)
 
 ### Run tests
 
